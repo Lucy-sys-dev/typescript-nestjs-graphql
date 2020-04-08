@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log
+
+#env
+.env
+
+#js file and map
+src/**/*.js
+src/**/*.js.map
+tests/**/*.js
+tests/**/*.js.map
+migrate.js
+migrate.js.map
+
+# dependencies
+/node_modules
+
+# Optional npm cache directory
+.npm
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# misc
+npm-debug.log
+
+# build
+/build
+
+# tests
+/coverage
+/.nyc_output
+
+#Package
+package-lock.json
