@@ -1,17 +1,17 @@
 'use strict';
 
 import { Module } from '@nestjs/common';
-// import { UsersModule } from './users/users.module';
+import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
-// import { GraphqlModule } from './graphql/graphql.module';
+import { GraphqlModule } from './graphql/graphql.module';
 // import { CarsModule } from './cars/cars.module';
 
 @Module({
     modules: [
-        // UsersModule,
+        UsersModule,
         // CarsModule,
         AuthModule,
-        // GraphqlModule,
+        GraphqlModule,
     ]
 })
 export class ApplicationModule { }
